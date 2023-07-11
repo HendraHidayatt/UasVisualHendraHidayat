@@ -238,7 +238,7 @@ object Form12: TForm12
     Database = 'database_siswa'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'D:\Rnldi-PC\S4\UAS-VISUAL-2-main\libmysql.dll'
+    LibraryLocation = 'C:\VISUAL_GALAY\libmysql.dll'
     Left = 616
     Top = 16
   end
@@ -257,7 +257,7 @@ object Form12: TForm12
     Top = 112
   end
   object frxreport1: TfrxReport
-    Version = '4.0.11'
+    Version = '4.12.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -298,6 +298,7 @@ object Form12: TForm12
           Top = 30.236240000000000000
           Width = 192.756030000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -317,6 +318,7 @@ object Form12: TForm12
           Left = 49.133890000000000000
           Width = 37.795300000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -332,6 +334,7 @@ object Form12: TForm12
           Left = 86.929190000000000000
           Width = 211.653680000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -347,6 +350,7 @@ object Form12: TForm12
           Left = 298.582870000000000000
           Width = 154.960730000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -362,6 +366,7 @@ object Form12: TForm12
           Left = 453.543600000000000000
           Width = 147.401670000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -377,6 +382,7 @@ object Form12: TForm12
           Left = 600.945270000000000000
           Width = 128.504020000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -400,6 +406,7 @@ object Form12: TForm12
           Left = 49.133890000000000000
           Width = 37.795300000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
           DisplayFormat.DecimalSeparator = ','
@@ -417,6 +424,7 @@ object Form12: TForm12
           Left = 86.929190000000000000
           Width = 211.653680000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'username'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -435,6 +443,7 @@ object Form12: TForm12
           Left = 298.582870000000000000
           Width = 154.960730000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'password'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -453,6 +462,7 @@ object Form12: TForm12
           Left = 453.543600000000000000
           Width = 147.401670000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'level'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -471,6 +481,7 @@ object Form12: TForm12
           Left = 600.945270000000000000
           Width = 128.504020000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'status'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -492,6 +503,7 @@ object Form12: TForm12
     UserName = 'frxdbdtst1'
     CloseDataSource = False
     DataSource = ds1
+    BCDToCurrency = False
     Left = 616
     Top = 216
   end

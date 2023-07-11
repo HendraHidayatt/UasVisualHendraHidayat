@@ -160,6 +160,7 @@ object Form3: TForm3
   end
   object zqry1: TZQuery
     Connection = con1
+    Active = True
     SQL.Strings = (
       'SELECT * FROM tabel_user')
     Params = <>
